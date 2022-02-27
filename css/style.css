@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Praise&family=Rubik+Mono+One&display=swap);
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body {
+	font-family: 'Praise', cursive;
+	font-size: 18px;
+}
+
+h1 {
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 30px;
+	color: white;
+}
+
+h2 {
+	font-size: 'Praise', cursive;
+	font-size: 30px;
+}
+
+a {
+	text-decoratio: none;
+}
+
+.container h2 {
+	margin-bottom: 40px;
+	margin-top: 40px;
+	font-size: 'Praise', cursive;
+}

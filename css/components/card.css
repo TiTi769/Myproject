@@ -1,0 +1,43 @@
+.cards {
+	display: flex;
+    flex-wrap: wrap;  
+}
+
+
+.card1 {
+	padding: 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 50%);
+    justify-content: space-between;
+    border-radius: 6px;
+    margin: 20px 0px;
+}
+
+.card {
+	padding: 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 50%);
+    justify-content: space-between;
+    border-radius: 6px;
+    margin: 20px 0px;
+    flex-grow: 1;
+    JUSTIFY-CONTENT: space-around;
+    margin: 10px;
+}
+
+.card img {
+	border-radius: 6px;
+	font-weight: bold;
+}
+
+.card p {
+	font-size: 20px;
+	font-family: 'Praise', cursive;
+}
+
+.card1 p {
+	font-size: 40px;
+	font-family: 'Rubik Mono One', sans-serif;
+}
